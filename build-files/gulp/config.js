@@ -18,14 +18,7 @@ module.exports = {
   "build": {
     "browserlist": ["> 0.5%", "last 2 versions", "Firefox ESR", "Opera 12.1"]
   },
-
-  // AWS settings
-  "aws": {
-    "identity": "",
-    "bucket": "",
-    "region": ""
-  },
-
+  
   // Meta for frontend static templates
   "meta": {}
 };
