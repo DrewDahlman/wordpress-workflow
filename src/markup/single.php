@@ -2,7 +2,7 @@
 /*
 Template Name: Single
 */
-define('NAV', true);
+
 ?>
 
 <?php get_header(); ?>

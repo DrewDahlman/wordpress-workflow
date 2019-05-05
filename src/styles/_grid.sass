@@ -1,0 +1,39 @@
+// Grid
+.grid
+	position: relative
+	display: grid
+	grid-template-columns: repeat(4, 25%)
+	padding:
+		left: 5vw
+		right: 5vw
+
+	.grid-content
+		position: relative
+		
+		// Col 1
+		&__column1__span1
+			grid-column: 1 / span 1
+		&__column1__span2
+			grid-column: 1 / span 2
+		&__column1__span3
+			grid-column: 1 / span 3
+		&__column1__span4
+			grid-column: 1 / span 4
+
+		// Col 2
+		&__column2__span1
+			grid-column: 2 / span 1
+		&__column2__span2
+			grid-column: 2 / span 2
+		&__column2__span3
+			grid-column: 2 / span 3
+
+		// Col 3
+		&__column3__span1
+			grid-column: 3 / span 1
+		&__column3__span2
+			grid-column: 3 / span 2
+
+		// Col 4
+		&__column4__span1
+			grid-column: 4 / span 1
